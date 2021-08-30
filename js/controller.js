@@ -507,77 +507,55 @@ function logComment(comment_index) {
 
 function logInteractions() {
 	var date_obj = new Date();
-	var gender;
-	if (input_gender1.checked == true) {
-		gender = input_gender1.value;
-	} else if (input_gender2.checked == true) {
-		gender = input_gender2.value;
-	} else if (input_gender3.checked == true) {
-		gender = input_gender3.value;
-	} else {
-		gender = input_gender4.value;
-	}
 	var url_address =
-		"https://docs.google.com/forms/d/e/1FAIpQLSfUetyuPcVNNi2ohoX8zCQoT6ZJiyRyZDD-fZ-whma7E_Ou4Q/formResponse?" +
-		"entry.1244428001=" +
-		"FossilLabv1.0_testversion" +
-		"&entry.1451520084=" +
+		"https://docs.google.com/forms/d/e/1FAIpQLSfY6OOY0BKryeu9fOqmPP4ci63qAs_XfmIthmfcxDtYmJre3Q/viewform?usp=sf_link" +
+		"&entry.1294322015=" +
 		date_obj.toISOString() +
-		"&entry.1810966418=" +
+		"&entry.1157826453=" +
 		String(Date.now()) +
-		"&entry.950746221=" +
+		"&entry.1744694412=" +
 		String(input_username.value) +
-		"&entry.2031201778=" +
-		String(input_age.value) +
-		"&entry.622857593=" +
-		String(input_degree.value) +
-		"&entry.370070751=" +
-		String(input_university.value) +
-		"&entry.69374522=" +
-		String(input_gpa.value) +
-		"&entry.1557537700=" +
-		String(gender) +
-		"&entry.1162289002=" +
+		"&entry.360754063=" +
 		"a00001" +
-		"&entry.1631159768=" +
-		"Mystery Fossil 1" +
-		"&entry.1536754686=" +
+		"&entry.303214871=" +
+		"MysteryFossil1" +
+		"&entry.890029254=" +
 		String(Number.parseFloat(camera.position.x).toFixed(3)) +
-		"&entry.1555527500=" +
+		"&entry.1554695945=" +
 		String(Number.parseFloat(camera.position.y).toFixed(3)) +
-		"&entry.159180449=" +
+		"&entry.190253279=" +
 		String(Number.parseFloat(camera.position.z).toFixed(3)) +
-		"&entry.918641034=" +
+		"&entry.1837789668=" +
 		String(Number.parseFloat(controls.target.distanceTo(controls.object.position)).toFixed(3)) +
-		"&entry.83940095=" +
+		"&entry.1771268506=" +
 		String(controls.object.rotation._order) +
-		"&entry.21681198=" +
+		"&entry.755054853=" +
 		String(Number.parseFloat(controls.object.rotation._x).toFixed(3)) +
-		"&entry.517135656=" +
+		"&entry.958490955=" +
 		String(Number.parseFloat(controls.object.rotation._y).toFixed(3)) +
-		"&entry.513369721=" +
+		"&entry.673974138=" +
 		String(Number.parseFloat(controls.object.rotation._z).toFixed(3)) +
-		"&entry.1814766815=" +
+		"&entry.1173930003=" +
 		String(Number.parseFloat(controls.object.quaternion._x).toFixed(3)) +
-		"&entry.1032418808=" +
+		"&entry.1092578280=" +
 		String(Number.parseFloat(controls.object.quaternion._y).toFixed(3)) +
-		"&entry.1469890999=" +
+		"&entry.1980005333=" +
 		String(Number.parseFloat(controls.object.quaternion._z).toFixed(3)) +
-		"&entry.1122474342=" +
+		"&entry.1039671957=" +
 		String(Number.parseFloat(controls.object.quaternion._w).toFixed(3)) +
-		"&entry.1082115649=" +
+		"&entry.2084708034=" +
 		String(Number.parseFloat(controls.object.position.x).toFixed(3)) +
-		"&entry.2026866226=" +
+		"&entry.203426479=" +
 		String(Number.parseFloat(controls.object.position.y).toFixed(3)) +
-		"&entry.317279221=" +
+		"&entry.18051996=" +
 		String(Number.parseFloat(controls.object.position.z).toFixed(3)) +
-		"&entry.1115204902=" +
+		"&entry.251099452=" +
 		String(Number.parseFloat(controls.object.scale.x).toFixed(3)) +
-		"&entry.904539292=" +
+		"&entry.447062968=" +
 		String(Number.parseFloat(controls.object.scale.y).toFixed(3)) +
-		"&entry.963523810=" +
+		"&entry.1869449332=" +
 		String(Number.parseFloat(controls.object.scale.z).toFixed(3)) +
-		"&entry.2114766812=" +
+		"&entry.2069652828=" +
 		String(agent[counter3 - 1].label) +
 		"&submit=Submit";
 	console.log(url_address);
