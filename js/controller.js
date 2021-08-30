@@ -420,76 +420,66 @@ function viewModel(model_id) {
 
 function logComment(comment_index) {
 	var url_address =
-		"https://docs.google.com/forms/d/e/1FAIpQLSdIRJlZV6xDutVMhLayJrkMKjIc5SfBmdQaOS8QJxv9qY5Png/viewform" +
-		"entry.975134550=" +
+		"https://docs.google.com/forms/d/e/1FAIpQLSfcRUR_OzAxM-NVxp2ti2Sm-fSCYz37DOPYCaEqocB330nRpw/viewform?usp=sf_link" +
+		"entry.1409535817=" +
 		String(data2[comment_index].metadata.version) +
-		"&entry.1659984093=" +
+		"&entry.1072182449=" +
 		String(data2[comment_index].metadata.date) +
-		"&entry.577843415=" +
+		"&entry.1725548152=" +
 		String(data2[comment_index].metadata.timestamp) +
-		"&entry.1968373221=" +
+		"&entry.1913696123=" +
 		String(data2[comment_index].user.username) +
-		"&entry.964445780=" +
-		String(data2[comment_index].user.age) +
-		"&entry.278858602=" +
-		String(data2[comment_index].user.degree) +
-		"&entry.1275473730=" +
-		String(data2[comment_index].user.university) +
-		"&entry.2040944281=" +
-		String(data2[comment_index].user.gpa) +
-		"&entry.1660040951=" +
-		String(data2[comment_index].user.gender) +
-		"&entry.1957288026=" +
+		"&entry.2014689306=" +
 		String(data2[comment_index].model.id) +
-		"&entry.383392807=" +
+		"&entry.2053223320=" +
 		String(data2[comment_index].model.name) +
-		"&entry.209025962=" +
+		"&entry.1025077181=" +
 		String(data2[comment_index].like) +
-		"&entry.1379608852=" +
+		"&entry.11568367=" +
 		String(data2[comment_index].comment) +
-		"&entry.1605513027=" +
+		"&entry.1074142437=" +
 		String(data2[comment_index].count) +
-		"&entry.1545238347=" +
+		"&entry.1915743138=" +
 		String(data2[comment_index].replies) +
-		"&entry.1683800135=" +
+		"&entry.1177480505=" +
 		String(Number.parseFloat(data2[comment_index].camera.x).toFixed(3)) +
-		"&entry.2067013922=" +
+		"&entry.2052551501=" +
 		String(Number.parseFloat(data2[comment_index].camera.y).toFixed(3)) +
-		"&entry.1698274138=" +
+		"&entry.109941202=" +
 		String(Number.parseFloat(data2[comment_index].camera.z).toFixed(3)) +
-		"&entry.1796404979=" +
+		"&entry.1084430691=" +
 		String(Number.parseFloat(data2[comment_index].camera.distance).toFixed(3)) +
-		"&entry.306884857=" +
+		"&entry.1168976928=" +
 		String(data2[comment_index].euler.order) +
-		"&entry.1019223054=" +
+		"&entry.1554586814=" +
 		String(Number.parseFloat(data2[comment_index].euler.x).toFixed(3)) +
-		"&entry.1340949829=" +
+		"&entry.231425692=" +
 		String(Number.parseFloat(data2[comment_index].euler.y).toFixed(3)) +
-		"&entry.771459655=" +
+		"&entry.2136569820=" +
 		String(Number.parseFloat(data2[comment_index].euler.z).toFixed(3)) +
-		"&entry.636073872=" +
+		"&entry.1813831831=" +
 		String(Number.parseFloat(data2[comment_index].quaternion.x).toFixed(3)) +
-		"&entry.351593870=" +
+		"&entry.518437360=" +
 		String(Number.parseFloat(data2[comment_index].quaternion.y).toFixed(3)) +
-		"&entry.941385348=" +
+		"&entry.1938452639=" +
 		String(Number.parseFloat(data2[comment_index].quaternion.z).toFixed(3)) +
-		"&entry.1265940654=" +
+		"&entry.604071565=" +
 		String(Number.parseFloat(data2[comment_index].quaternion.w).toFixed(3)) +
-		"&entry.1349539111=" +
+		"&entry.25051780=" +
 		String(Number.parseFloat(data2[comment_index].position.x).toFixed(3)) +
-		"&entry.533699116=" +
+		"&entry.795791771=" +
 		String(Number.parseFloat(data2[comment_index].position.y).toFixed(3)) +
-		"&entry.1318394407=" +
+		"&entry.658719792=" +
 		String(Number.parseFloat(data2[comment_index].position.z).toFixed(3)) +
-		"&entry.73501810=" +
+		"&entry.1206060489=" +
 		String(Number.parseFloat(data2[comment_index].scale.x).toFixed(3)) +
-		"&entry.1962036313=" +
+		"&entry.1617073745=" +
 		String(Number.parseFloat(data2[comment_index].scale.y).toFixed(3)) +
-		"&entry.1658539784=" +
+		"&entry.1090087836=" +
 		String(Number.parseFloat(data2[comment_index].scale.z).toFixed(3)) +
-		"&entry.1557304386=" +
+		"&entry.1702290923=" +
 		String(data2[comment_index].label.prompt) +
-		"&entry.1777979282=" +
+		"&entry.162216373=" +
 		String(data2[comment_index].label.comment) +
 		"&submit=Submit";
 	console.log(url_address);
