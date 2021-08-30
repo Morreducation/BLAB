@@ -420,7 +420,7 @@ function viewModel(model_id) {
 
 function logComment(comment_index) {
 	var url_address =
-		"https://docs.google.com/forms/d/e/1FAIpQLSdIRJlZV6xDutVMhLayJrkMKjIc5SfBmdQaOS8QJxv9qY5Png/formResponse?" +
+		"https://docs.google.com/forms/d/e/1FAIpQLSdIRJlZV6xDutVMhLayJrkMKjIc5SfBmdQaOS8QJxv9qY5Png/viewform" +
 		"entry.975134550=" +
 		String(data2[comment_index].metadata.version) +
 		"&entry.1659984093=" +
